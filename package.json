@@ -1,9 +1,10 @@
 {
-  "name": "nextjs-with-typescript",
-  "version": "4.0.0",
+  "name": "colorcoll",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@material-ui/core": "latest",
+    "@material-ui/icons": "^4.11.2",
     "clsx": "latest",
     "next": "latest",
     "react": "latest",
@@ -12,8 +13,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start",
-    "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
+    "start": "next start"
   },
   "devDependencies": {
     "@types/next": "latest",
